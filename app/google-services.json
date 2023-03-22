@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "20241807359",
+    "firebase_url": "https://mallandmapregister-914f5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mallandmapregister-914f5",
+    "storage_bucket": "mallandmapregister-914f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20241807359:android:ffaf8efb66169fadb659ca",
+        "android_client_info": {
+          "package_name": "com.example.mallandmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20241807359-dnbc6a7kuburckjl3rgsue6jks8hn3ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMYmerq9CaKkAz0sxv8glfRjDDM9vfTnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20241807359-dnbc6a7kuburckjl3rgsue6jks8hn3ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20241807359:android:b6c5d3085dfc7dbdb659ca",
+        "android_client_info": {
+          "package_name": "com.mallandmap.mallandmapregister"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20241807359-dnbc6a7kuburckjl3rgsue6jks8hn3ib.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMYmerq9CaKkAz0sxv8glfRjDDM9vfTnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20241807359-dnbc6a7kuburckjl3rgsue6jks8hn3ib.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

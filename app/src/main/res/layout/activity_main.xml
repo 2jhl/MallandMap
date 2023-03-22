@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/menu"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_menu_36" />
+
+        <TextView
+            android:id="@+id/mallandmap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="MAM"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_search_36" />
+
+        <ImageButton
+            android:id="@+id/calendar"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_calendar_today_36" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/mainimage"
+        android:layout_width="409dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/mainnews" />
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="3dp"
+        android:text="브랜드 순위>" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/brandranking1"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/nike" />
+
+        <ImageButton
+            android:id="@+id/brandranking2"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/adidas" />
+
+        <ImageButton
+            android:id="@+id/brandranking3"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/gucci" />
+
+        <ImageButton
+            android:id="@+id/brandranking4"
+            android:layout_width="108dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/vitton" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/news"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="14dp"
+        android:text="브랜드 뉴스>" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/brandnews1"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/news1" />
+
+        <ImageButton
+            android:id="@+id/brandnews2"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/news2" />
+
+        <ImageButton
+            android:id="@+id/brandnews3"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/news3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_category_36" />
+
+        <ImageButton
+            android:id="@+id/brand"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_local_offer_36" />
+
+        <ImageButton
+            android:id="@+id/mainscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_home_36" />
+
+        <ImageButton
+            android:id="@+id/mypage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_person_36" />
+
+
+        <ImageButton
+            android:id="@+id/chatbot"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_forum_36" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/category_kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="카테고리"/>
+
+        <TextView
+            android:id="@+id/brand_kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="브랜드" />
+
+        <TextView
+            android:id="@+id/home_kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="        " />
+
+        <TextView
+            android:id="@+id/mypage_kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="마이페이지" />
+
+        <TextView
+            android:id="@+id/chatbot_kor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:textSize="10dp"
+            android:text="챗봇" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

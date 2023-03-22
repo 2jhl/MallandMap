@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="60dp">
+
+        <ImageButton
+            android:id="@+id/back"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_arrow_back_36" />
+
+        <TextView
+            android:id="@+id/mallandmap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center|left"
+            android:text="MAM"
+            android:textSize="30dp"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="120dp" >
+
+        <ImageButton
+            android:id="@+id/search_ic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_search_36" />
+
+        <ImageButton
+            android:id="@+id/mybrand_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_star_36" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            android:id="@+id/brand_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="브랜드 검색" />
+
+        <TextView
+            android:id="@+id/mybrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="30dp"
+            android:text="마이브랜드" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp" >
+
+        <ImageButton
+            android:id="@+id/news_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_newspaper_36" />
+
+        <ImageButton
+            android:id="@+id/ranking_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_format_list_numbered_36" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            android:id="@+id/brand_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="브랜드 뉴스" />
+
+        <TextView
+            android:id="@+id/brand_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="30dp"
+            android:text="브랜드 순위" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="120dp" >
+
+        <ImageButton
+            android:id="@+id/center_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_call_36" />
+
+        <ImageButton
+            android:id="@+id/notifi_ic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:background="@android:color/transparent"
+            app:srcCompat="@drawable/ic_baseline_notifications_36" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="8dp" >
+
+        <TextView
+            android:id="@+id/brand_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="고객센터   " />
+
+        <TextView
+            android:id="@+id/brand_notifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginLeft="30dp"
+            android:text="알림 설정" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
